@@ -10,6 +10,7 @@ public:
     void decreaseKey(int vertex, int newKey);
     bool isInMinHeap(int vertex);
     bool isEmpty();
+    int getKey(int vertex) const;
 
 private:
     int* heapArray;        // Heap of vertex indices
